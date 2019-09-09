@@ -1,0 +1,4 @@
+# specific, like: supervisor==4.0.4
+supervisor
+
+flake8

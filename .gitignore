@@ -1,0 +1,17 @@
+*.swp
+*.mo
+*.py[cod]
+.DS_Store
+
+__pycache__/
+*.egg-info/
+
+/config/supervisord.ini
+
+/logs/*
+!/logs/.gitkeep
+!/logs/supervisord/.gitkeep
+!/logs/supervisord/childs/.gitkeep
+
+/env/*
+!/env/.gitkeep
