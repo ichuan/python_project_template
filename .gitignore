@@ -9,8 +9,10 @@ __pycache__/
 /config/supervisord.ini
 
 /logs/*
-!/logs/.gitkeep
-!/logs/supervisord/.gitkeep
+!/logs/supervisord
+/logs/supervisord/*
+!/logs/supervisord/childs
+/logs/supervisord/childs/*
 !/logs/supervisord/childs/.gitkeep
 
 /env/*

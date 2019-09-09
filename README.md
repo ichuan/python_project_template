@@ -1,4 +1,5 @@
 # Python Project Template
+Simple python project template, suitable for standalone (non Django) or lightweight (like sanic/flask), with supervisord in consideration
 
 ## Usage
 
