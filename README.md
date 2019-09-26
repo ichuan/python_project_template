@@ -54,7 +54,8 @@ supervisorctl -c config/supervisord.ini
 
 - Building python packages:
   - Install setuptools: `pip install setuptools wheel`
-  - Build: `python setup.py sdist`
+  - Build: `python setup.py bdist_wheel`
+  - `dist/*.whl` will be the compiled package
 
 
 ## FAQ
