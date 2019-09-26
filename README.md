@@ -33,13 +33,8 @@ supervisorctl -c config/supervisord.ini
 
 ## Developing a python package
 
-- First, you need a `setup.py`, simplly get it from [navdeep-G/setup.py](https://github.com/navdeep-G/setup.py):
-
-    ```sh
-    curl -OL https://raw.githubusercontent.com/navdeep-G/setup.py/master/setup.py
-    ```
-
-- Then, orginze your codes in a sub-dir of project name, like `project1`.
+- First, orginze your codes in a sub-dir of project name, like `project1`.
+- We already included a `setup.py` from [navdeep-G/setup.py](https://github.com/navdeep-G/setup.py), simply modify it.
 - Install your project locally:
 
     ```sh
@@ -56,6 +51,10 @@ supervisorctl -c config/supervisord.ini
 - Running your project:
   - Import from outside scripts, or
   - Use `python -m project1.main`
+
+- Building python packages:
+  - Install setuptools: `pip install setuptools wheel`
+  - Build: `python setup.py sdist`
 
 
 ## FAQ
