@@ -9,14 +9,4 @@ __pycache__/
 /build/
 /dist/
 
-/config/supervisord.ini
-
-/logs/*
-!/logs/supervisord
-/logs/supervisord/*
-!/logs/supervisord/childs
-/logs/supervisord/childs/*
-!/logs/supervisord/childs/.gitkeep
-
-/env/*
-!/env/.gitkeep
+/config/supervisord.conf

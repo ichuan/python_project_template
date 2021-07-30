@@ -1,5 +1,8 @@
 [tool.black]
 # https://github.com/python/black#configuration-format
+line-length = 88
+# target-version = ['py27']
+target-version = ['py39']
 skip-string-normalization = true
 exclude = '''
 
@@ -15,6 +18,7 @@ exclude = '''
     | buck-out
     | build
     | dist
+    | env
   )/
   | node_modules/
 )
