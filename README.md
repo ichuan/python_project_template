@@ -16,7 +16,7 @@ python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 
-cp config/supervisord.example.conf config/supervisord.conf
+cp config/supervisord.example.ini config/supervisord.ini
 ```
 
 
@@ -24,10 +24,10 @@ cp config/supervisord.example.conf config/supervisord.conf
 
 ```sh
 # start
-supervisord -c config/supervisord.conf
+supervisord -c config/supervisord.ini
 
 # managing
-supervisorctl -c config/supervisord.conf
+supervisorctl -c config/supervisord.ini
 ```
 
 
